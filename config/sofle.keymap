@@ -43,6 +43,12 @@
             flavor = "balanced";
             hold-trigger-key-positions = <30>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-mouse-key-press";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <1>;
+        };
     };
 
     keymap {
@@ -70,7 +76,7 @@
         };
 
         nav {
-            display-name = "raise";
+            display-name = "nav";
 
             // ------------------------------------------------------------------------------------------------------------
             // |   `   | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |RC(DEL)|
@@ -91,7 +97,7 @@
         };
 
         func {
-            display-name = "lower";
+            display-name = "func";
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
@@ -125,7 +131,7 @@
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                               &none  &none  &none  &none  &none  &bootloader
 &ext_power EP_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                            &none  &none  &none  &none  &none  &none
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                                      &none  &none  &none  &none  &none  &none
-&none              &none            &none            &none            &none            &none            &rgb_ug RGB_TOG    &none  &none  &none  &none  &none  &none  &none
+&bootloader        &none            &none            &none            &none            &none            &rgb_ug RGB_TOG    &none  &none  &none  &none  &none  &none  &bootloader
                                     &none            &none            &none            &none            &none              &none  &none  &none  &none  &none
             >;
         };
