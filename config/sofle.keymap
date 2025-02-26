@@ -80,11 +80,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &kp INSERT  &kp F5              &kp F2    &kp F9               &trans             &kp LS(DEL)
-&trans           &kp LC(Q)     &kp LS(DEL)   &kp LC(D)     &kp F9        &kp LA(LC(LS(TAB)))                         &kp PG_UP   &kp LC(LEFT_ARROW)  &kp UP    &kp LC(RIGHT_ARROW)  &kp LC(BACKSPACE)  &trans
-&kp PRINTSCREEN  &kp LWIN      &kp LEFT_ALT  &kp LSHFT     &kp LCTRL     &kp LA(LC(TAB))                             &kp PG_DN   &kp LEFT            &kp DOWN  &kp RIGHT            &kp DEL            &kp BSPC
-&kp LG(L)        &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(LS(V))        &bootloader    &trans  &trans      &kp HOME            &to 2     &kp END              &trans             &trans
-                               &trans        &trans        &trans        &trans               &trans         &trans  &trans      &trans              &trans    &trans
+&trans           &kp LA(N1)  &kp LA(N2)    &kp LA(N3)  &kp LA(N4)  &kp LS(F12)                                 &kp INSERT  &kp F5              &kp F2    &kp F9               &trans             &kp LS(DEL)
+&trans           &kp LC(Q)   &kp LS(DEL)   &kp LC(D)   &kp F9      &kp LA(LC(LS(TAB)))                         &kp PG_UP   &kp LC(LEFT_ARROW)  &kp UP    &kp LC(RIGHT_ARROW)  &kp LC(BACKSPACE)  &trans
+&kp PRINTSCREEN  &kp LWIN    &kp LEFT_ALT  &kp LSHFT   &kp LCTRL   &kp LA(LC(TAB))                             &kp PG_DN   &kp LEFT            &kp DOWN  &kp RIGHT            &kp DEL            &kp BSPC
+&kp LG(L)        &kp LC(Z)   &kp LC(X)     &kp LC(C)   &kp LC(V)   &kp LC(LS(V))        &bootloader    &trans  &trans      &kp HOME            &to 2     &kp END              &trans             &trans
+                             &trans        &trans      &trans      &trans               &trans         &trans  &trans      &trans              &trans    &trans
             >;
         };
 
@@ -99,11 +99,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &kp INSERT  &kp F5              &kp F2    &kp F9               &trans             &kp LS(DEL)
-&trans        &kp INS       &kp PSCRN     &kp LC(D)     &kp F9        &kp LA(LC(LS(TAB)))                    &kp PG_UP   &kp LC(LEFT_ARROW)  &kp UP    &kp LC(RIGHT_ARROW)  &kp LC(BACKSPACE)  &trans
-&trans        &kp LWIN      &kp LEFT_ALT  &kp LSHFT     &kp LCTRL     &kp LA(LC(TAB))                        &kp PG_DN   &kp LEFT            &kp DOWN  &kp RIGHT            &kp DEL            &kp UP_ARROW
-&kp LG(DOWN)  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(LS(V))        &trans    &trans  &trans      &kp HOME            &to 0     &kp END              &trans             &kp DOWN_ARROW
-                            &trans        &trans        &trans        &to 0                &trans    &trans  &trans      &trans              &trans    &trans
+&trans           &kp LA(N1)  &kp LA(N2)    &kp LA(N3)  &kp LA(N4)  &kp LS(F12)                                 &kp INSERT  &kp F5              &kp F2    &kp F9               &trans             &kp LS(DEL)
+&trans           &kp LC(Q)   &kp LS(DEL)   &kp LC(D)   &kp F9      &kp LA(LC(LS(TAB)))                         &kp PG_UP   &kp LC(LEFT_ARROW)  &kp UP    &kp LC(RIGHT_ARROW)  &kp LC(BACKSPACE)  &trans
+&kp PRINTSCREEN  &kp LWIN    &kp LEFT_ALT  &kp LSHFT   &kp LCTRL   &kp LA(LC(TAB))                             &kp PG_DN   &kp LEFT            &kp DOWN  &kp RIGHT            &kp DEL            &kp BSPC
+&kp LG(L)        &kp LC(Z)   &kp LC(X)     &kp LC(C)   &kp LC(V)   &kp LC(LS(V))        &bootloader    &trans  &trans      &kp HOME            &to 0     &kp END              &trans             &trans
+                             &trans        &trans      &trans      &to 0                &trans         &trans  &trans      &trans              &trans    &trans
             >;
         };
 
